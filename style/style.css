@@ -1,0 +1,43 @@
+body{
+    background-color: #f5f2ea;
+    
+}
+#OdinTitle{
+    text-align: center;
+}
+.menu{
+    text-align: center;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+#link1{
+    background-image: url(bestlasanga.png) ;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+}
+#link2{
+    background-image: url(bestlasanga.png) ;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+}#link3{
+    background-image: url(bestlasanga.png) ;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+}
