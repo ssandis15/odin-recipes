@@ -1,43 +1,52 @@
 body{
     background-color: #f5f2ea;
     
+    
 }
 #OdinTitle{
     text-align: center;
 }
-.menu{
-    text-align: center;
 
+ul{
+    display: flex;
 }
 
 ul li{
     list-style: none;
-    display: inline-block;
+    padding-top: 260px;
+   
 }
 
-#link1{
-    background-image: url(bestlasanga.png) ;
-    background-size: 200px;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 0px;
-    width: 200px;
-    height: 200px;
+ul li a {
+    background-color: #f5f2ea;
 }
-#link2{
-    background-image: url(bestlasanga.png) ;
-    background-size: 200px;
+
+.menu{
+    background-color: #f5f2ea;
+    text-align: center;
+    
+    }
+    
+.menu div{
+    flex: 1;
+    width: 300px;
+    height: 250px;
+    background-size: 350px;
     background-repeat: no-repeat;
-    display: block;
-    margin: 0px;
-    width: 200px;
-    height: 200px;
-}#link3{
-    background-image: url(bestlasanga.png) ;
-    background-size: 200px;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 0px;
-    width: 200px;
-    height: 200px;
+    background-position: center;
 }
+    #link1{
+        
+    background-image: url(../recipes/bestlasanga.png);
+   
+    }
+
+    #link2{
+    
+        background-image: url(../recipes/mompotatolatkes.jpg);
+
+    }
+
+    #link3{
+        background-image: url(../recipes/swedishmeatball.jpg);
+    }
