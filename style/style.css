@@ -1,3 +1,4 @@
+
 body{
     background-color: #f5f2ea;
     
@@ -24,7 +25,9 @@ ul li a {
 .menu{
     background-color: #f5f2ea;
     text-align: center;
-    
+    justify-content: center;
+   
+
     }
     
 .menu div{
@@ -34,19 +37,24 @@ ul li a {
     background-size: 350px;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 10px;
+
+    
+
 }
     #link1{
         
     background-image: url(../recipes/bestlasanga.png);
-   
     }
 
     #link2{
     
-        background-image: url(../recipes/mompotatolatkes.jpg);
+    background-image: url(../recipes/mompotatolatkes.jpg);
+
 
     }
 
     #link3{
-        background-image: url(../recipes/swedishmeatball.jpg);
+    background-image: url(../recipes/swedishmeatball.jpg);
+
     }
